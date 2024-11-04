@@ -3,7 +3,7 @@ namespace Tyuiu.AlshinAF.Sprint3.Task0.V29.Lib
 {
     public class DataService : ISprint3Task0V29
     {
-        public double GetSumSeries(double value, int startValue, int stopValue)
+        public double GetSumSeries(double value, int startValue, int stopValue) 
         {
             double sumSeries = 0;
             double i;
