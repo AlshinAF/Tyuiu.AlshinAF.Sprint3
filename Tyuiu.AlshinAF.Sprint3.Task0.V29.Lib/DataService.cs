@@ -6,10 +6,10 @@ namespace Tyuiu.AlshinAF.Sprint3.Task0.V29.Lib
         public double GetSumSeries(double value, int startValue, int stopValue)
         {
             double sumSeries = 0;
-            int i;
+            double i;
             for (i = startValue; i <= stopValue; i++)
             {
-                sumSeries = sumSeries + ((Math.Pow(value, 2*i) + (1/i+1))*Math.Cos(value));
+                sumSeries = sumSeries + ((Math.Pow(value, i*2) + (1/(i+1)))*Math.Cos(value));
             }
             return Math.Round(sumSeries, 3);
         }
