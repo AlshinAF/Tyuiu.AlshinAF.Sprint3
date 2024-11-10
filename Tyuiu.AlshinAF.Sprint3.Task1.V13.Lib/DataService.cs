@@ -9,7 +9,8 @@ namespace Tyuiu.AlshinAF.Sprint3.Task1.V13.Lib
             
             while (startValue <= stopValue) 
             {
-                multSeries = multSeries + (Math.Pow((1 / Math.Pow(value, startValue)), -1));
+                double k = startValue;
+                multSeries = multSeries * (Math.Pow((1 / Math.Pow(value, k)), -1));
                 startValue++;
 
             }
