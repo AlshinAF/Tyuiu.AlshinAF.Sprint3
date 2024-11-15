@@ -8,7 +8,6 @@ namespace Tyuiu.AlshinAF.Sprint3.Task5.V6.Test
         public void TestMethod1()
         {
             DataService ds = new DataService();
-            int x = 5;
             int start1 = 1;
             int start2 = 1;
             int stop1 = 3;
