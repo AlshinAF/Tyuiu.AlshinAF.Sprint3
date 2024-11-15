@@ -3,7 +3,7 @@ DataService ds = new DataService();
 Console.Title = "Спринт #3 | Выполнил: Альшин А. Ф. | РППб-24-1";
 Console.WriteLine("***************************************************************************");
 Console.WriteLine("* Спринт #3                                                               *");
-Console.WriteLine("* Тема:  Операции сравнения                                               *");
+Console.WriteLine("* Тема:  Обработка целочисленной информации                               *");
 Console.WriteLine("* Задание #6                                                              *");
 Console.WriteLine("* Вариант #20                                                             *");
 Console.WriteLine("* Выполнил: Альшин Артур Фаритович | РППб-24-1                            *");

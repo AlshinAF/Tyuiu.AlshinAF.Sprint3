@@ -1,2 +1,25 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using Tyuiu.AlshinAF.Sprint3.Task2.V19.Lib;
+DataService ds = new DataService();
+Console.Title = "Спринт #3 | Выполнил: Альшин А. Ф. | РППб-24-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #3                                                               *");
+Console.WriteLine("* Тема:  Оператор цикла do-while                                          *");
+Console.WriteLine("* Задание #2                                                              *");
+Console.WriteLine("* Вариант #19                                                             *");
+Console.WriteLine("* Выполнил: Альшин Артур Фаритович | РППб-24-1                            *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("* Написать программу используя цикл do...while, которая вычисляет сумму   *");
+Console.WriteLine("* ряда по формуле: S=cos (i)* 1/2                                         *");
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+Console.WriteLine("***************************************************************************");
+int startValue = 1;
+int stopValue = 10;
+Console.WriteLine("Старт шага = " + startValue);
+Console.WriteLine("Конец шага = " + stopValue);
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("Сумма ряда = " + ds.GetSumSeries(startValue, stopValue));
+Console.ReadKey();
