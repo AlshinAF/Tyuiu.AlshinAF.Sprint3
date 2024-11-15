@@ -11,7 +11,7 @@ namespace Tyuiu.AlshinAF.Sprint3.Task5.V6.Test
             int x = 5;
             int start1 = 1;
             int start2 = 1;
-            int stop1 = 5;
+            int stop1 = 3;
             int stop2 = 10;
             double res = ds.GetSumSumSeries(start1, start2, stop1, stop2);
             double wait = 40.917;
